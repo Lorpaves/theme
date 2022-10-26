@@ -1,0 +1,64 @@
+@import url(../_variables.css);
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: var(--sidebar-width);
+  background: rgb(249, 249, 249);
+  box-shadow: -4px 0px 20px var(--font-color);
+  display: none;
+}
+
+.close__button {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  border: 0;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+}
+.hero-icon {
+  width: 7rem;
+}
+
+.close__icon {
+  margin-top: 0.2rem;
+  width: 3rem;
+  height: 3rem;
+  fill: var(--font-color);
+}
+
+.close__button:hover {
+  background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.sidebar__icon {
+  position: absolute;
+  /* left: calc(var(--sidebar-width) / 3);
+     */
+  left: 1rem;
+  top: 1.5rem;
+}
+
+.info {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 50vh;
+  left: calc(var(--sidebar-width) / 2);
+}
+.info ul {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.info li {
+  list-style: none;
+  padding: 0.4rem 0rem;
+}
+
+.sidebar p {
+  text-align: center;
+}

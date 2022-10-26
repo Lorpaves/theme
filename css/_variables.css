@@ -1,0 +1,15 @@
+:root {
+  --font-color: #484848;
+  --nav-dfbg-color: rgb(2, 0, 36);
+  --nav-bg-color: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(94, 97, 106, 1) 0%,
+    rgba(164, 164, 164, 1) 100%
+  );
+  --hover-color: #ea918580;
+  --header-vpadding: 4rem;
+  --header-floating: 3rem;
+  --header-title-color: #311329;
+  --sidebar-width: 30rem;
+}

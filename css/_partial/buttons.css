@@ -1,0 +1,10 @@
+.header__button {
+  width: 3.7rem;
+  height: 3.7rem;
+  border: none;
+  border-radius: 50%;
+}
+
+.btn {
+  background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="body">
+    <header id="header" class="header collapsible">
+      <div class="container">
+        <div class="row align-items-center">
+          <button id="header__btn" class="btn header__button float-start hover">
+            <svg class="button__icon">
+              <use xlink:href="imgs/sprite.svg#home"></use>
+            </svg>
+          </button>
+          <div class="header__title">
+            <a class="hover header__text" href="/">Lorpaves </a>
+          </div>
+          <button id="search__btn" class="btn header__button float-end hover">
+            <svg class="button__icon">
+              <use xlink:href="imgs/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <div id="input">
+      <input type="text" name="" id="input__search" />
+    </div>
+    <div class="sidebar display-flex row align-items-center">
+      <button id="sidebar-btn" class="btn close__button hover">
+        <svg class="close__icon">
+          <use xlink:href="imgs/close.svg#close"></use>
+        </svg>
+      </button>
+
+      <a href="/">
+        <svg class="icon sidebar__icon">
+          <use xlink:href="imgs/sprite.svg#github"></use>
+        </svg>
+      </a>
+      <div class="info">
+        <ul>
+          <a href="">
+            <li>日志</li>
+          </a>
+          <a href="">
+            <li>Github</li>
+          </a>
+          <a href="">
+            <li>关于我</li>
+          </a>
+        </ul>
+      </div>
+      <p>Lorpaves</p>
+    </div>
+
+    <div class="posts-list display-flex coloum">
+        <article class="post__container coloum">
+          <h1 class="post__heading">Heading</h1>
+        
+          <div class="post__data">
+            <span class="post__meta">发表于2022-01-01</span>
+            <span class="post__meta">更新于2023-01-01</span>
+            <span class="post__meta">分类：</span>
+            <span class="post__meta"></span>
+          </div>
+          <div class="post__contents">
+            <p>
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, voluptatem? Dignissimos maiores neque maxime perferendis eligendi quos aspernatur amet officiis sed. Error libero enim aliquam ratione nobis quasi ipsa asperiores iste illo. Aut similique provident, at consequatur ut quis eligendi dignissimos facere aspernatur, molestiae mollitia culpa velit. Quos, mollitia laudantium!
+            </p>
+          </div>
+        <article/>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.js"></script>
+  </body>
+</html>
